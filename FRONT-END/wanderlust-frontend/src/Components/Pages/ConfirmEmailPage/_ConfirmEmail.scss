@@ -1,0 +1,39 @@
+.confirmEmailPage{
+    width: 100%;
+    height: 83vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $cultured;
+    &--container{
+        background-color: $white;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem;
+        border-radius: 0.8rem;
+        gap: 1.6rem;
+        text-align: center;
+        @include mq(m){
+            width: 50%;
+        }
+        h1{
+            font-size: 2rem;
+            color: $greenL;
+        }
+        p{
+            font-size: 1.6rem;
+            color: $blueDark;
+            font-weight: $bold;
+        }
+        img{
+            width: 8rem;
+        }
+        button{
+            width: 20rem;
+        }
+    }
+}

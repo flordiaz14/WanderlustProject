@@ -1,0 +1,1 @@
+export const helpImages= require.context('../../../Img', true);

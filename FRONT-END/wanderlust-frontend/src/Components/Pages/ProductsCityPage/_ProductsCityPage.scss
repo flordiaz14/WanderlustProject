@@ -1,0 +1,14 @@
+.products--city__page{
+    min-height: calc(100vh - 164px);
+    padding-bottom: 5rem;
+    animation: formOpacity 2s;
+    background: $platinum ;
+    &--title{
+        color: $blueDark;
+        text-align: left;
+        padding: 4rem 0  2rem 0;
+        font-size: 2rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+}

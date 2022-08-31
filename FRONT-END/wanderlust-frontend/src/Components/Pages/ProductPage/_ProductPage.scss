@@ -1,0 +1,311 @@
+.product {
+  animation: formOpacity 2s;
+  min-height: calc(100vh - 164px);
+  h2 {
+    font-size: 2rem;
+  }
+  .header {
+    background-color: $blue;
+    padding: 1rem 0;
+    @include mq(m) {
+      padding: 0;
+      height: 8rem;
+    }
+    &--product {
+      width: 90%;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      align-items: center;
+
+      &__container {
+        display: flex;
+        flex-direction: column;
+        color: $white;
+        .product--categoria {
+          font-weight: 500;
+          font-size: 1.4rem;
+        }
+        .product--title {
+          font-weight: 500;
+          font-size: 2.4rem;
+        }
+      }
+      &__icon {
+        cursor: pointer;
+        font-size: 4rem;
+        color: $white;
+        transition: all 500ms;
+        &:hover {
+          animation: rotateOpen 1s;
+          font-size: 5rem;
+        }
+      }
+    }
+  }
+  .location {
+    width: 100%;
+    background-color: $platinum;
+    &--container {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      // flex-direction: column;
+      justify-content: space-between;
+      padding: 1.5rem 0;
+      align-items: center;
+      gap: 1rem;
+      @include mq(m) {
+        padding: 0;
+        height: 8rem;
+      }
+      .location--img {
+        display: flex;
+        column-gap: 0.5rem;
+        padding-top: 1rem;
+        img {
+          width: 1rem;
+          height: 1.4rem;
+        }
+        p {
+          color: $blueDark;
+          font-size: 1.4rem;
+          font-weight: 500;
+        }
+      }
+      .location--score {
+        padding-right: 14%;
+        @include mq(m) {
+          padding-right: 4%;
+        }
+      }
+    }
+  }
+  .features {
+    padding: 2rem 0;
+    &--container {
+      width: 90%;
+      margin: auto;
+      h2 {
+        color: $blueDark;
+        padding: 2rem 0 1rem;
+      }
+    }
+  }
+  .gallery {
+    position: relative;
+    &--slider__mobile {
+      @include mq(mx) {
+        display: none !important;
+      }
+    }
+    &--social {
+      position: absolute;
+      top: 1.5rem;
+      left: 1rem;
+      z-index: 1;
+      font-size: 2.5rem;
+      color: $white;
+      display: flex;
+      column-gap: 1rem;
+      background-color: $greenL;
+      padding: 0.5rem 1rem;
+      border-radius: 1rem;
+      svg{
+        font-size: 2rem;
+        cursor: pointer;
+      }
+      @include mq(l){
+        top: 8%;
+        left: 7%;
+      }
+    }
+    .slick-arrow {
+      display: none;
+    }
+
+    button {
+      position: absolute;
+      background-color: $greenL;
+      // text-decoration: underline;
+      cursor: pointer;
+      right: 7%;
+      bottom: 10%;
+      font-size: 1.6rem;
+      border: none;
+      color: $white;
+      font-weight: $bold;
+      width: 15rem;
+      padding: 1rem;
+      border-radius: 1rem;
+      transition: all 500ms;
+      display: none !important;
+      &:hover {
+        transform: scale(1.2);
+      }
+      @include mq(l) {
+        display: initial !important;
+      }
+    }
+  }
+  .description {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    h2 {
+      color: $blueDark;
+      padding: 2rem 0;
+    }
+    p{
+      font-size: 1.4rem;
+      line-height: 2;
+    }
+  }
+  .availability {
+    width: 100%;
+    margin: 2rem 0;
+    background-color: $platinum;
+    @include mq(l) {
+      height: 40rem;
+      flex-direction: row;
+    }
+    h2 {
+      color: $blueDark;
+      padding: 0rem 0 2rem;
+      width: 90%;
+      margin: auto;
+      padding-top: 2rem;
+    }
+    &--contianer {
+      display: flex;
+      width: 90%;
+      margin: auto;
+      justify-content: space-between;
+      flex-direction: column;
+      @include mq(l) {
+        height: 33rem;
+        flex-direction: row;
+      }
+      .availability--reserva {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 2rem 0;
+        @include mq(l) {
+          padding: 0;
+          width: 50%;
+        }
+        &__container {
+          width: 100%;
+          background-color: transparent;
+          border-radius: 0.8rem;
+          padding: 2rem;
+          @include mq(l) {
+            padding: 2rem 5rem;
+            width: 70%;
+            box-shadow: 1px 1px 10px rgba(5, 5, 5, 0.134);
+            background-color: $white;
+          }
+          p {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            font-size: 1.6rem;
+            font-weight: $bold;
+            color: $blueDark;
+            padding: 3rem 0;
+          }
+          button {
+            width: 80%;
+            margin: auto;
+            transition: all 500ms;
+            &:hover {
+              transform: scale(1.05) translatey(0.4rem);
+            }
+          }
+        }
+      }
+      .availability--calendar{
+        width: 100%;
+        @include mq(l){
+          width: 60%;
+        }
+      }
+    }
+  }
+  .map {
+    h2 {
+      width: 90%;
+      padding: 3rem 0 2rem;
+      margin: auto;
+      color: $blueDark;
+    }
+    p {
+      color: $blueDark;
+      padding: 2rem 0 1rem;
+      width: 90%;
+      margin: auto;
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+  }
+
+
+  hr {
+    border: none;
+    height: 0.1rem;
+    border-color: $greenL;
+    background-color: $greenL;
+  }
+
+  .e-range-header {
+    display: none;
+  }
+
+  .e-calendar-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    .e-left-container {
+      .e-calendar.e-left-calendar.e-lib.e-keyboard {
+        max-width: 100%;
+        max-height: 30rem;
+        min-height: 30rem;
+        .e-header.e-month {
+          display: flex;
+          gap: 1rem;
+          justify-content: center;
+          .e-prev {
+            width: 20%;
+          }
+          .e-day {
+            width: 30%;
+          }
+        }
+      }
+    }
+    .e-right-container {
+      display: none;
+      @include mq(m) {
+        display: initial;
+      }
+      .e-calendar.e-right-calendar.e-lib.e-keyboard {
+        max-width: 100%;
+        max-height: 30rem;
+        min-height: 30rem;
+        .e-header.e-month {
+          display: flex;
+          gap: 1rem;
+          justify-content: center;
+          .e-prev {
+            width: 20%;
+          }
+          .e-day {
+            width: 30%;
+          }
+        }
+      }
+    }
+  }
+}

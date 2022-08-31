@@ -1,0 +1,50 @@
+.main--header{
+  position: sticky;
+  // width: 100vw;
+  top: 0;
+  z-index: 2;
+  height: 10rem;
+  @include mq(m){
+    z-index: 2;
+  }
+}
+.header {
+  height: 10rem;
+  background-color: $white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  &--logo {
+    a {
+      text-decoration: none;
+      color: $blue;
+      font-style: italic;
+      display: flex;
+      align-items: flex-end;
+      font-size: 2rem;
+      font-weight: 300;
+      margin: 2rem 1rem;
+      gap: 1.5rem;
+      img{
+        margin: 0;
+      }
+    }
+    &__description {
+      display: none;
+      @include mq(l){
+          display: initial;
+      }
+    }
+}
+&--nav{
+    display: none;
+    @include mq(m){
+        display: initial;
+        
+    }
+  }
+}
+
+

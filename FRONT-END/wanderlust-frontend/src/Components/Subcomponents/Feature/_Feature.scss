@@ -1,0 +1,30 @@
+.feature {
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: 25rem;
+  margin: 0 auto;
+  padding: 2rem 0;
+  &--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 50%;
+    @include mq(l) {
+      width: 25%;
+    }
+    @include mq(l) {
+      img {
+        width: 2.5rem;
+      }
+    }
+  }
+  &--name {
+    width: 25%;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+}

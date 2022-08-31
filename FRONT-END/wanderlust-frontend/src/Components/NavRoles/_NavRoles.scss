@@ -1,0 +1,52 @@
+.nav--admin.desktop{
+    display: none !important;
+    @include mq(m){
+        display: flex !important;
+        flex-direction: row;
+        gap: 0.5rem;
+        align-items: flex-end;
+        justify-content: flex-end;
+        height: 50%;
+        width: 50%;
+        flex-wrap: wrap;
+    }
+    @include mq(l){
+        width: 40%;
+    }
+    .btn{
+        width: 100px;
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        text-align: center;
+        color: $greenL;
+        border: solid 1px $greenL;
+        text-decoration: none;
+        line-height: initial;
+        text-underline-offset: 0;
+        &:hover{
+            transform: none;
+            
+        }
+    }
+}
+.nav--admin{
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem;
+    flex-direction: column;
+    .btn{
+        width: 100px;
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        text-align: right;
+        background-color: transparent;
+        border: none;
+        color: $greenL;
+        text-decoration: underline;
+        line-height: 1;
+        text-underline-offset: 0.3rem;
+        &:hover{
+            transform: none;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.products--category__page{
+    animation: formOpacity 2s;
+    background: $platinum ;
+    min-height: calc(100vh - 64px);
+    padding-bottom: 5rem;
+    &--title{
+        color: $blueDark;
+        text-align: left;
+        padding: 4rem 0  2rem 0;
+        font-size: 2rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+}

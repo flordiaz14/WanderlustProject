@@ -1,0 +1,378 @@
+.form {
+  z-index: -1;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+  min-height: calc(100vh - 164px);
+  display: flex;
+  align-items: center;
+  &--register,
+  &--session,
+  &--add {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    height: 100%;
+    row-gap: 1rem;
+    margin: auto;
+    animation: formOpacity 2s;
+    width: 70%;
+    @include mq(m) {
+      width: 40%;
+    }
+    @include mq(l) {
+      width: 30%;
+    }
+    p {
+      text-align: center;
+      margin: 1rem 0;
+      font-size: 1.4rem;
+      color: $blueDark;
+    }
+    label {
+      font-size: 1.4rem;
+      font-weight: 500;
+      color: $blueDark;
+    }
+    input,
+    select,
+    textarea {
+      padding: 1.2rem 0 1.2rem 1.2rem;
+      box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+      border: none;
+      // border-radius: 0.5rem;
+      width: 100%;
+    }
+    button {
+      width: 20rem;
+      margin: 5rem auto 0 auto;
+    }
+    .form--alert {
+      p {
+        justify-content: center;
+        color: $red;
+        padding: 2rem 1rem;
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+        background-color: #febcbc93;
+
+        svg {
+          font-size: 3rem;
+        }
+      }
+    }
+    .form--register__name {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 1rem;
+      @include mq(l) {
+        gap: 2rem;
+        flex-direction: row;
+      }
+      .name,
+      .lastName {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+    .password {
+      position: relative;
+      gap: 1rem;
+      display: flex;
+      flex-direction: column;
+      &--eye__icon {
+        position: absolute;
+        font-size: 2rem;
+        right: 1rem;
+        bottom: 1rem;
+        cursor: pointer;
+        &:hover {
+          animation: rotateOpen 2s;
+          color: $greenL;
+        }
+      }
+    }
+  }
+  &--title {
+    text-align: center;
+    color: $greenL;
+    padding: 1rem 0;
+    font-size: 2.4rem;
+    // margin-top: 5rem;
+  }
+  &--add {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    column-gap: 1rem;
+    align-items: center;
+    width: 90%;
+    // @include mq(m){
+    //   width: 100%;
+    // }
+    @include mq(l) {
+      width: 50%;
+    }
+    div {
+      width: 100%;
+      @include mq(m) {
+        width: 49%;
+      }
+    }
+    select {
+      width: 100%;
+    }
+    h2,
+    h3 {
+      color: $blueDark;
+      font-size: 2rem;
+      width: 100%;
+      text-align: center;
+      padding: 2rem 0;
+    }
+    label {
+      display: block;
+      font-size: 1.4rem;
+      margin: 0.7rem 0;
+    }
+  }
+  .description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    textarea {
+      width: 100%;
+      margin: 1rem 0;
+      resize: none;
+      font-family: Roboto, Arial, sans-serif;
+      outline: none;
+    }
+  }
+  .features {
+    width: 100%;
+    &--title {
+      width: 100%;
+    }
+    &--icons {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      align-items: center;
+      width: 100%;
+      margin: 2rem auto;
+      row-gap: 1rem;
+    }
+    label {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      @include mq(m) {
+        width: 50%;
+      }
+      @include mq(xl) {
+        width: 33%;
+      }
+      img {
+        margin-left: 1rem;
+      }
+    }
+    input {
+      width: 3rem;
+      background: transparent;
+      border: none;
+      box-shadow: none;
+    }
+  }
+  .locationMap {
+    svg {
+      cursor: pointer;
+      transition: all 500ms;
+      font-size: 1.8rem;
+      color: $primario;
+      &:hover {
+        transform: scale(1.5);
+        color: $secundario;
+      }
+    }
+  }
+  .politics {
+    width: 100%;
+    &--container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      gap: 2rem;
+      padding: 0;
+      height: auto;
+      div {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+
+        label {
+          width: 100%;
+          padding: 0.5rem 0;
+          color: $blueDark;
+          font-size: 1.2rem;
+        }
+
+        input {
+          width: 80%;
+        }
+        button {
+          width: 20%;
+          margin: 0;
+          background-color: $greenL-hover;
+          color: $white;
+          font-weight: 700;
+          padding: 1.2rem;
+          font-size: 1.6rem;
+          transition: all 1s ease;
+          border: none;
+          &:hover {
+            background-color: $primario;
+          }
+        }
+        ul {
+          display: flex;
+          justify-content: flex-start;
+          width: 100%;
+          gap: 1rem;
+          flex-wrap: wrap;
+          li {
+            width: 100%;
+            list-style: none;
+            // margin: 1rem 0;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            // @include mq(m){
+            //   width: 48%;
+            // }
+            input {
+              padding: 1.2rem;
+            }
+            button {
+              background-color: $secundario;
+              cursor: pointer;
+              &:hover {
+                background-color: $secundario-hover;
+              }
+            }
+          }
+        }
+      }
+      .images {
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        
+        h2,
+        h3 {
+          color: $blueDark;
+          font-size: 2rem;
+          width: 100%;
+          text-align: center;
+          padding: 2rem 0;
+        }
+        &--right, .li--right {
+          width: 45%;
+          input {
+            width: 100%;
+          }
+        }
+        &--left, .li--left {
+          width: 35%;
+        }
+        button {
+          margin-bottom: -0.2rem;
+        }
+        .ul--container{
+         .li--container{
+            display: flex;
+            align-items: flex-end;
+          }
+
+        }
+        #images {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .crear {
+    width: 100%;
+  }
+  .modal--search.modal.is-open {
+    width: 100%;
+    .modal-container {
+      animation: formOpacity 500ms !important;
+      padding: 0;
+      border-radius: initial;
+      border-radius: 2rem;
+      box-shadow: 1px 1px 5px rgba(15, 15, 15, 0.701);
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background-color: $black;
+      height: 40rem;
+      width: 40%;
+      @include mq(m) {
+        height: 50rem;
+        width: 50%;
+      }
+      .iframe {
+        width: 100%;
+        iframe {
+          display: block;
+          margin: auto;
+          width: 320px;
+          height: 350px;
+          @include mq(m) {
+            width: 100%;
+            height: 450px;
+          }
+        }
+      }
+
+      .modal-close {
+        top: -3.4rem;
+        right: 15rem;
+        height: 2rem;
+        width: 5rem;
+        text-align: center;
+        font-size: 1.6rem;
+        transition: all 500ms;
+        position: absolute;
+        padding: 1.5rem 2rem;
+        line-height: 0;
+        border: none;
+        // border-radius: 0.8rem;
+        background-color: $secundario;
+        color: $white;
+        // font-weight: $bold;
+        cursor: pointer;
+        &:hover {
+          transform: none;
+        }
+        @include mq(m) {
+          top: 0;
+          right: 3rem;
+        }
+      }
+    }
+  }
+}
+
+.none {
+  display: none;
+}

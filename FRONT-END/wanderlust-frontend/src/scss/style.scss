@@ -1,0 +1,51 @@
+/* --------------------------------- Globals -------------------------------- */
+@import './globals/variables';
+@import './globals/media-queries';
+@import './globals/basic';
+@import './globals/animation';
+@import './globals/general';
+@import './globals/forms';
+
+/* ------------------------------ Subcomponents ----------------------------- */
+@import '../Components/Subcomponents/Logo/Logo';
+@import '../Components/Subcomponents/Select/Select';
+@import '../Components/Subcomponents/Card_Category/CardCategory';
+@import '../Components/Subcomponents/SocialMedia/SocialMedia';
+@import '../Components/Subcomponents/Button/Button';
+@import '../Components/Subcomponents/MsgAlert/MsgAlert.scss';
+@import '../Components/Subcomponents/Avatar/Avatar';
+@import '../Components/Subcomponents/Feature/Feature';
+@import '../Components/Subcomponents/Score/Score';
+@import '../Components/Subcomponents/ProductImgGallery/ProductImgGallery';
+@import '../Components/Subcomponents/Map/Map';
+@import '../Components/Subcomponents/SimpleSlider/SimpleSlider';
+@import '../Components/Subcomponents/ReactDate/ReactDate';
+@import '../Components/Subcomponents/Modal/Modalpop';
+@import '../Components/Subcomponents/LogAutUser/LogAutUser';
+
+
+/* ------------------------------- Components ------------------------------- */
+@import '../Components/Footer/Footer';
+@import '../Components/Header/Header';
+@import '../Components/Subcomponents/Card_Product/CardProduct.scss';
+@import '../Components/Search/Search.scss';
+@import '../Components/Categories/Categories';
+@import '../Components/Recommended/Recommended';
+@import '../Components/MenuDrawer/MenuDrawer';
+@import '../Components/Nav/Nav';
+@import '../Components/Pages/ProductPage/ProductPage';
+@import '../Components/Pages/ProductsCategoryPage/ProductsCateegory';
+@import '../Components/Pages/ProductsCityPage/ProductsCityPage';
+@import '../Components/Pages/HomePage/Home';
+@import '../Components/HeaderProduct/HeaderProduct';
+@import '../Components/Pages/BookingsFormPage/BookingsForm';
+@import '../Components/ProductPolitics/ProductPolitics';
+@import '../Components/Pages/SuccessBookingPage/SuccessBooking';
+@import '../Components/Pages/ConfirmEmailPage/ConfirmEmail';
+@import '../Components/Pages/FavoritesPage/favoritesPage';
+@import '../Components/Pages/AdminPage/AdminPage';
+@import '../Components/Pages/MyBookingPage/MyBookingPage';
+@import '../Components/NavRoles/NavRoles';
+@import '../Components/Pages/ErrorPage/404';
+
+

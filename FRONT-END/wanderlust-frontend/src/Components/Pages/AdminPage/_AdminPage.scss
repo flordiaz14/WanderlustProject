@@ -1,0 +1,27 @@
+.admin--page {
+  animation: formOpacity 2s;
+  background-color: $bgForm;
+  min-height: calc(100vh - 164px);
+
+  &__container {
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    @include mq(m){
+      width: 50%;
+    }
+    a.btn.green {
+      text-decoration: none !important;
+      font-weight: 500;
+      font-size: 1.4rem;
+      @include mq(m){
+        font-size: initial;
+      }
+    }
+
+  }
+}

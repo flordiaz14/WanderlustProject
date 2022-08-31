@@ -1,0 +1,220 @@
+[
+    {"productos":[ 
+    {
+        "id":"001",
+        "img": [{"id":"1","src":"https://images.unsplash.com/photo-1631049421450-348ccd7f8949?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170"},{"id":"2","src":"https://images.unsplash.com/photo-1631049421450-348ccd7f8949?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170"},{"id":"3","src":"https://images.unsplash.com/photo-1631049421450-348ccd7f8949?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170"},{"id":"4","src":"https://images.unsplash.com/photo-1631049421450-348ccd7f8949?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170"},{"id":"5","src":"https://images.unsplash.com/photo-1631049421450-348ccd7f8949?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170"}],
+        "categoria": "Hotel",
+        "title": "MG Design Hotel Boutique",
+        "ciudad": "Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+        "ubicacion": "A 120 m del centro.",
+        "titleDescription": "Alójate en el corazón de Buenos Aires",
+        "descripcion": "Este hotel de 4 estrellas ofrece servicio de conserjería y mostrador de información turística.",
+        "caracteristicas":[{"id":"001", "name":"Cocina", "icon": "kitchen"} ,{"id":"002",  "name":"Cocina", "icon": "kitchen"} , {"id":"003", "name":"Cocina", "icon": "kitchen"} , {"id":"004", "name":"Cocina", "icon": "kitchen"} ,{"id":"005", "name":"Cocina", "icon": "kitchen"} , {"id":"006",  "name":"Cocina", "icon": "kitchen"} , {"id":"007",  "name":"Cocina", "icon": "kitchen"}],
+        "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.944396426528!2d-58.38834532503318!3d-34.60067717004145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac64184e6ad%3A0x2aa812a9dbc3436!2sTribunales%20-%20Teatro%20Col%C3%B3n!5e0!3m2!1ses-419!2sco!4v1654381892488!5m2!1ses-419!2sco"
+    },
+    {
+        "id":"002",
+        "img": [{"id":"1","src":"https://images.unsplash.com/photo-1519690889869-e705e59f72e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"},{"id":"2","src":"https://images.unsplash.com/photo-1519690889869-e705e59f72e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"},{"id":"3","src":"https://images.unsplash.com/photo-1519690889869-e705e59f72e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"},{"id":"4","src":"https://images.unsplash.com/photo-1519690889869-e705e59f72e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"},{"id":"5","src":"https://images.unsplash.com/photo-1519690889869-e705e59f72e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"}],
+        "categoria": "Hotel",
+        "title": "Hotel Tonight",
+        "ciudad": "Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+        "ubicacion": "A 940 m del centro.",
+        "titleDescription": "Alójate en el corazón de Buenos Aires",
+        "descripcion": "El alojamiento se encuentra a 1,8 km del centro comercial El Palacio Galerías y de la catedral de Salta.",
+        "caracteristicas":[{"id":"001", "name":"Cocina", "icon": "kitchen"} ,{"id":"002",  "name":"Cocina", "icon": "kitchen"} , {"id":"003", "name":"Cocina", "icon": "kitchen"} , {"id":"004", "name":"Cocina", "icon": "kitchen"} ,{"id":"005", "name":"Cocina", "icon": "kitchen"} , {"id":"006",  "name":"Cocina", "icon": "kitchen"} , {"id":"007",  "name":"Cocina", "icon": "kitchen"}],
+        "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.944396426528!2d-58.38834532503318!3d-34.60067717004145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac64184e6ad%3A0x2aa812a9dbc3436!2sTribunales%20-%20Teatro%20Col%C3%B3n!5e0!3m2!1ses-419!2sco!4v1654381892488!5m2!1ses-419!2sco"
+    },
+    {
+        "id":"003",
+        "img": [{"id":"1","src":"https://images.unsplash.com/photo-1445991842772-097fea258e7b?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170"},{"id":"2","src":"https://images.unsplash.com/photo-1445991842772-097fea258e7b?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170"},{"id":"3","src":"https://images.unsplash.com/photo-1445991842772-097fea258e7b?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170"},{"id":"4","src":"https://images.unsplash.com/photo-1445991842772-097fea258e7b?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170"},{"id":"5","src":"https://images.unsplash.com/photo-1445991842772-097fea258e7b?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170"}],
+        "categoria": "Hostel",
+        "title": "Little Prince Hostel",
+        "ciudad": "Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+        "ubicacion": "A 480 m del centro.",
+        "titleDescription": "Alójate en el corazón de Buenos Aires",
+        "descripcion": "El Little Prince Hostel ofrece habitaciones con aire acondicionado, cerca del centro comercial Mall Hayam.",
+        "caracteristicas":[{"id":"001", "name":"Cocina", "icon": "kitchen"} ,{"id":"002",  "name":"Cocina", "icon": "kitchen"} , {"id":"003", "name":"Cocina", "icon": "kitchen"} , {"id":"004", "name":"Cocina", "icon": "kitchen"} ,{"id":"005", "name":"Cocina", "icon": "kitchen"} , {"id":"006",  "name":"Cocina", "icon": "kitchen"} , {"id":"007",  "name":"Cocina", "icon": "kitchen"}],
+        "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.944396426528!2d-58.38834532503318!3d-34.60067717004145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac64184e6ad%3A0x2aa812a9dbc3436!2sTribunales%20-%20Teatro%20Col%C3%B3n!5e0!3m2!1ses-419!2sco!4v1654381892488!5m2!1ses-419!2sco"
+    },
+    {
+        "id":"004",
+        "img": [{"id":"1","src":"https://images.unsplash.com/photo-1596701062351-8c2c14d1fdd0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"},{"id":"2","src":"https://images.unsplash.com/photo-1596701062351-8c2c14d1fdd0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"},{"id":"3","src":"https://images.unsplash.com/photo-1596701062351-8c2c14d1fdd0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"},{"id":"4","src":"https://images.unsplash.com/photo-1596701062351-8c2c14d1fdd0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"},{"id":"5","src":"https://images.unsplash.com/photo-1596701062351-8c2c14d1fdd0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"}],
+        "categoria": "Hostel",
+        "title": "THIS HO(S)TEL",
+        "ciudad": "Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+        "ubicacion": "A 40 m del centro.",
+        "titleDescription": "Alójate en el corazón de Buenos Aires",
+        "descripcion": "El alojamiento THIS HO(S)TEL está ubicado en Ámsterdam y ofrece alojamiento solo para adultos, un restaurante y un bar.",
+        "caracteristicas":[{"id":"001", "name":"Cocina", "icon": "kitchen"} ,{"id":"002",  "name":"Cocina", "icon": "kitchen"} , {"id":"003", "name":"Cocina", "icon": "kitchen"} , {"id":"004", "name":"Cocina", "icon": "kitchen"} ,{"id":"005", "name":"Cocina", "icon": "kitchen"} , {"id":"006",  "name":"Cocina", "icon": "kitchen"} , {"id":"007",  "name":"Cocina", "icon": "kitchen"}],
+        "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.944396426528!2d-58.38834532503318!3d-34.60067717004145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac64184e6ad%3A0x2aa812a9dbc3436!2sTribunales%20-%20Teatro%20Col%C3%B3n!5e0!3m2!1ses-419!2sco!4v1654381892488!5m2!1ses-419!2sco"
+    },
+    {
+        "id":"005",
+        "img": [{"id":"1","src":"https://images.unsplash.com/photo-1630582837298-49d1927726e5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688"},{"id":"2","src":"https://images.unsplash.com/photo-1630582837298-49d1927726e5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688"},{"id":"3","src":"https://images.unsplash.com/photo-1630582837298-49d1927726e5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688"},{"id":"4","src":"https://images.unsplash.com/photo-1630582837298-49d1927726e5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688"},{"id":"5","src":"https://images.unsplash.com/photo-1630582837298-49d1927726e5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688"}],
+        "categoria": "Bed and breakfast",
+        "title": "Bed and breakfast Tonight",
+        "ubicacion": "A 1300 m del centro.",
+        "ciudad": "Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+        "titleDescription": "Alójate en el corazón de Buenos Aires",
+        "descripcion": "El alojamiento se encuentra a 1,7 km del parque 9 de Julio. La recepción está abierta las 24 horas.",
+        "caracteristicas":[{"id":"001", "name":"Cocina", "icon": "kitchen"} ,{"id":"002",  "name":"Cocina", "icon": "kitchen"} , {"id":"003", "name":"Cocina", "icon": "kitchen"} , {"id":"004", "name":"Cocina", "icon": "kitchen"} ,{"id":"005", "name":"Cocina", "icon": "kitchen"} , {"id":"006",  "name":"Cocina", "icon": "kitchen"} , {"id":"007",  "name":"Cocina", "icon": "kitchen"}],
+        "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.944396426528!2d-58.38834532503318!3d-34.60067717004145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac64184e6ad%3A0x2aa812a9dbc3436!2sTribunales%20-%20Teatro%20Col%C3%B3n!5e0!3m2!1ses-419!2sco!4v1654381892488!5m2!1ses-419!2sco"
+    },
+    {
+        "id":"006",
+        "img": [{"id":"1","src":"https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170"},{"id":"2","src":"https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170"},{"id":"3","src":"https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170"},{"id":"4","src":"https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170"},{"id":"5","src":"https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170"}],
+        "categoria": "Bed and breakfast",
+        "title": "Bed and breakfast Tonight",
+        "ciudad": "Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+        "ubicacion": "A 800 m del centro.",
+        "titleDescription": "Alójate en el corazón de Buenos Aires",
+        "descripcion": "El alojamiento se encuentra a 1,8 km del centro comercial El Palacio Galerías y de la catedral de Salta.",
+        "caracteristicas":[{"id":"001", "name":"Cocina", "icon": "kitchen"} ,{"id":"002",  "name":"Cocina", "icon": "kitchen"} , {"id":"003", "name":"Cocina", "icon": "kitchen"} , {"id":"004", "name":"Cocina", "icon": "kitchen"} ,{"id":"005", "name":"Cocina", "icon": "kitchen"} , {"id":"006",  "name":"Cocina", "icon": "kitchen"} , {"id":"007",  "name":"Cocina", "icon": "kitchen"}],
+        "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.944396426528!2d-58.38834532503318!3d-34.60067717004145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac64184e6ad%3A0x2aa812a9dbc3436!2sTribunales%20-%20Teatro%20Col%C3%B3n!5e0!3m2!1ses-419!2sco!4v1654381892488!5m2!1ses-419!2sco"
+    },
+    {
+        "id":"007",
+        "img": [{"id":"1","src":"https://images.unsplash.com/photo-1519690889869-e705e59f72e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"},{"id":"2","src":"https://images.unsplash.com/photo-1519690889869-e705e59f72e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"},{"id":"3","src":"https://images.unsplash.com/photo-1519690889869-e705e59f72e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"},{"id":"4","src":"https://images.unsplash.com/photo-1519690889869-e705e59f72e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"},{"id":"5","src":"https://images.unsplash.com/photo-1519690889869-e705e59f72e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"}],
+        "categoria": "Resort ",
+        "title": "Resort Tonight",
+        "ciudad": "Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+        "ubicacion": "A 687 m del centro.",
+        "titleDescription": "Alójate en el corazón de Buenos Aires",
+        "descripcion": "El alojamiento se encuentra a 1,8 km del centro comercial El Palacio Galerías y de la catedral de Salta.",
+        "caracteristicas":[{"id":"001", "name":"Cocina", "icon": "kitchen"} ,{"id":"002",  "name":"Cocina", "icon": "kitchen"} , {"id":"003", "name":"Cocina", "icon": "kitchen"} , {"id":"004", "name":"Cocina", "icon": "kitchen"} ,{"id":"005", "name":"Cocina", "icon": "kitchen"} , {"id":"006",  "name":"Cocina", "icon": "kitchen"} , {"id":"007",  "name":"Cocina", "icon": "kitchen"}],
+        "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.944396426528!2d-58.38834532503318!3d-34.60067717004145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac64184e6ad%3A0x2aa812a9dbc3436!2sTribunales%20-%20Teatro%20Col%C3%B3n!5e0!3m2!1ses-419!2sco!4v1654381892488!5m2!1ses-419!2sco"
+    },
+    {
+        "id":"008",
+        "img": [{"id":"1","src":"https://images.unsplash.com/photo-1566073771259-6a8506099945?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170"},{"id":2,"src":"https://images.unsplash.com/photo-1566073771259-6a8506099945?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170"},{"id":3,"src":"https://images.unsplash.com/photo-1566073771259-6a8506099945?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170"},{"id":4,"src":"https://images.unsplash.com/photo-1566073771259-6a8506099945?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170"},{"id":5,"src":"https://images.unsplash.com/photo-1566073771259-6a8506099945?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170"}],
+        "categoria": "Resort ",
+        "title": "Resort Tonight",
+        "ciudad": "Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+        "ubicacion": "A 65 m del centro.",
+        "titleDescription": "Alójate en el corazón de Buenos Aires",
+        "descripcion": "El alojamiento se encuentra a 1,8 km del centro comercial El Palacio Galerías y de la catedral de Salta.",
+        "caracteristicas":[{"id":"001", "name":"Cocina", "icon": "kitchen"} ,{"id":"002",  "name":"Cocina", "icon": "kitchen"} , {"id":"003", "name":"Cocina", "icon": "kitchen"} , {"id":"004", "name":"Cocina", "icon": "kitchen"} ,{"id":"005", "name":"Cocina", "icon": "kitchen"} , {"id":"006",  "name":"Cocina", "icon": "kitchen"} , {"id":"007",  "name":"Cocina", "icon": "kitchen"}],
+        "map" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.944396426528!2d-58.38834532503318!3d-34.60067717004145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac64184e6ad%3A0x2aa812a9dbc3436!2sTribunales%20-%20Teatro%20Col%C3%B3n!5e0!3m2!1ses-419!2sco!4v1654381892488!5m2!1ses-419!2sco",
+        "politicas":""
+    }]},
+    {"ciudades":[
+        {
+            "id": "001",
+            "nombre": "San Carlos de Bariloche",
+            "país": "Argentina"
+        },
+        {
+            "id": "002",
+            "nombre": "Buenos Aires",
+            "país": "Argentina"
+        },
+        {
+            "id": "003",
+            "nombre": "Mendoza",
+            "país": "Argentina"
+        },
+        {
+            "id": "004",
+            "nombre": "Córdoba",
+            "país": "Argentina"
+        }
+    ]},
+    {"categorias":[
+        {
+            "id": "001",
+            "nombre": "Hotel",
+            "img": "https://images.unsplash.com/photo-1519690889869-e705e59f72e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "cantidad": "807.105"
+        },
+        {
+            "id": "002",
+            "nombre": "Hostel",
+            "img": "https://images.unsplash.com/photo-1445991842772-097fea258e7b?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170",
+            "cantidad": "807.105"
+        },
+        {
+            "id": "003",
+            "nombre": "Resort",
+            "img": "https://images.unsplash.com/photo-1566073771259-6a8506099945?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170",
+            "cantidad": "807.105"
+        },
+        {
+            "id": "004",
+            "nombre": "Bed and breakfast",
+            "img": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170",
+            "cantidad": "807.105"
+        },
+        {
+            "id": "005",
+            "nombre": "Bed and breakfast",
+            "img": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170",
+            "cantidad": "807.105"
+        }
+    ]},
+    {"usuarios":[
+        {
+            "id": "001",
+            "name": "Juan",
+            "lastName": "Perez",
+            "email": "user1@email.com",
+            "password": "passUser1",
+            "token":"tokenUser1",
+            "verified":false
+        },
+        {
+            "id": "002",
+            "name": "Bruno",
+            "lastName": "Rodriguez",
+            "email": "user2@email.com",
+            "password": "passUser2",
+            "token":"tokenUser2",
+            "verified":false
+        },
+        {
+            "id": "003",
+            "name": "james",
+            "lastName": "Rodriguez",
+            "email": "1@1.com",
+            "password": "passUser3",
+            "token":"tokenUser3",
+            "verified":false
+        }
+    ]},
+    {"características":[
+        {
+            "id": "001",
+            "titulo": "Cocina",
+            "icono": "GiKitchenTap"
+        },
+        {
+            "id": "002",
+            "titulo": "Televisión",
+            "país": "FaTv"
+        },
+        {
+            "id": "003",
+            "titulo": "Aire acondicionado",
+            "país": "FaSnowflake"
+        },
+        {
+            "id": "004",
+            "titulo": "Apto mascotas",
+            "país": "MdPets"
+        },
+        {
+            "id": "006",
+            "titulo": "Estacionamiento gratuito",
+            "país": "AiFillCar"
+        },
+        {
+            "id": "006",
+            "titulo": "Pileta",
+            "país": "FaSwimmer"
+        },
+        {
+            "id": "007",
+            "titulo": "Wifi",
+            "país": "RiWifiFill"
+        }
+    ]}    
+]

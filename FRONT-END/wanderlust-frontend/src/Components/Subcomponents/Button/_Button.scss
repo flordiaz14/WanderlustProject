@@ -1,0 +1,58 @@
+.searchBtn {
+  width: 100%;
+  @include mq(m) {
+    width: 20%;
+  }
+}
+
+.btn {
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  // border-radius: 0.5rem;
+  display: block;
+  cursor: pointer;
+  &.green.old {
+    background-color: $greenL;
+    color: $white;
+    font-weight: $bold;
+    padding: 1.2rem;
+    font-size: 1.6rem;
+      //Agregado
+      transition: all 1s ease;
+      &:hover {
+        background-color: $greenL-hover;
+        color: $white;
+      }
+      
+  }
+  &.green {
+    background-color: $secundario;
+    color: $white;
+    font-weight: $bold;
+    padding: 1.2rem;
+    font-size: 1.6rem;
+      //Agregado
+      transition: all 1s ease;
+      &:hover {
+        background-color: $secundario-hover;
+        color: $white;
+      }
+      
+  }
+  &.white {
+    background-color: $white;
+    color: $white;
+    font-weight: $bold;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    border: solid 1px $greenL;
+    color: $greenL;
+    line-height: 1;
+    border-radius: 1.5rem;
+    transition: all 500ms;
+    &:hover{
+      transform: scale(0.99);
+    }
+  }
+}

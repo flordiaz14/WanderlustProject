@@ -1,0 +1,135 @@
+div.modal.is-open {
+  background-color: $bgBlue;
+  animation: formOpacity 1s;
+  backdrop-filter: blur(10px);
+  .modal-container {
+    height: 65rem;
+    width: 80rem;
+    padding: 0;
+    border-radius: initial;
+    animation: formOpacity 2s;
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px rgba(15, 15, 15, 0.701);
+    .modal-close {
+      top: -2rem;
+      right: 1rem;
+      height: 10rem;
+      width: initial;
+      text-align: center;
+      background-color: transparent;
+      font-size: 3rem;
+      transition: all 500ms;
+      &:hover{
+          transform: rotate(360deg);
+      }
+    }
+    // #simple--slider {
+    //   img {
+    //     width: 100% !important;
+    //     height: 30rem ;
+    //     display: block;
+    //     object-fit: cover;
+    //   }
+    //   p{
+    //     font-size: 2rem;
+    //     color: $blueDark;
+    //     text-align: center;
+    //     padding: 1rem 0;
+    //   }
+    //   .slick-arrow{
+    //       top: 40%;
+    //       color: transparent;
+    //       &::before{
+    //           color: $white;
+    //           opacity: 100%;
+    //           border-radius: 5rem;
+    //           font-size: 5rem;
+    //       }
+    //       &.slick-prev{
+    //         left: 0;
+    //       }
+    //       &.slick-next{
+    //           right: -8%;
+    //       }
+    //   }
+    //   ul.slick-dots.slick-thumb{
+    //     display: flex !important;
+    //     justify-content: space-evenly;
+    //     bottom: -10rem;
+    //     left: 1rem;
+    //     li{
+    //       width: 20%;
+    //       button{
+    //         height: auto;
+    //         img{
+    //           height: 8rem !important;
+    //           border-radius: 1rem;
+    //         }
+    //         &::before{
+    //           font-size: 0;
+    //         }
+    //       }
+    //     }
+        
+    //   }
+    // }
+
+  }
+  button {
+    background-color: transparent;
+    z-index: 3;
+    transform: initial;
+  }
+}
+
+#simple--slider {
+  img {
+    width: 100% !important;
+    height: 30rem ;
+    display: block;
+    object-fit: cover;
+  }
+  p{
+    font-size: 2rem;
+    color: $blueDark;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  .slick-arrow{
+      top: 40%;
+      color: transparent;
+      &::before{
+          color: $white;
+          opacity: 100%;
+          border-radius: 5rem;
+          font-size: 5rem;
+      }
+      &.slick-prev{
+        left: 0;
+      }
+      &.slick-next{
+          right: -8%;
+      }
+  }
+  ul.slick-dots.slick-thumb{
+    display: flex !important;
+    justify-content: space-evenly;
+    bottom: -10rem;
+    left: 1rem;
+    li{
+      width: 20%;
+      button{
+        height: auto;
+        img{
+          height: 8rem !important;
+          border-radius: 1rem;
+        }
+        &::before{
+          font-size: 0;
+        }
+      }
+    }
+    
+  }
+}

@@ -1,0 +1,60 @@
+// -- COLORS -- //
+
+$black: #000;
+$white :#FFFFFF;
+$grey :#dadada;
+$blue :#283D56;
+$cultured : #F3F6F7; 
+$green : #92C8A7;
+$orange : #E2C4A0;
+$platinum : #E5E5E5;
+$borderCard: #F3F1ED;
+$gray: #383b586b;
+$blueDark:  #383B58;
+$bgBlue:  #000000a7;
+$greenL: #75C9A7;
+$greenL-hover: #75c9a7c0;
+$greenLite: #4dbcb586;
+//Agregada
+$greenDark: #1a928a;
+$bgForm: #F9F9F9;
+$red: #FF0000;
+
+$primario: #75C9A7;
+$secundario: #ebb58c;
+$secundario-hover: #d6a681;
+$secundario-hover-lite: #e0af8ab5;
+$bg-blue: #283D56;
+
+
+$bold: 700;
+$boldBetter: 600;
+$maxwidth: 35rem;
+$maxwidthBody: 24rem;
+$maxwidth1200: 120rem;
+$maxwidth1300: 130rem;
+$maxbutton: 40rem;
+
+// Media queries
+$breakpoints-min: (
+  "s": 320px,
+  "m": 768px,
+  "mx": 769px,
+  "l": 992px,
+  "xl": 1600px,
+  "xxl": 1920px,
+);
+
+$breakpoints-max: (
+  "xs": map-get($breakpoints-min, "s") - 1px,
+  "s": map-get($breakpoints-min, "m") - 1px,
+  "m": map-get($breakpoints-min, "l") - 1px,
+  "l": map-get($breakpoints-min, "xl") - 1px,
+);
+
+$container-max-widths: (
+  "s": 540px,
+  "m": 720px,
+  "l": 960px,
+  "xl": 1320px,
+);

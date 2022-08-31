@@ -1,0 +1,99 @@
+.modal {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(41, 39, 39, 0.523);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container {
+  position: relative;
+  padding: 1rem;
+  min-width: 600px;
+  max-width: 1100px;
+  min-height: 200px;
+  max-height: 10000px;
+  overflow-y: auto;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.modal.is-open {
+  display: flex;
+}
+
+.search {
+  div.modal--search.modal.is-open {
+    background-color: transparent !important;
+    animation: formOpacity 500ms !important;
+    backdrop-filter: none;
+    .modal-container {
+      animation: formOpacity 500ms !important;
+      height: 32rem;
+      width: 30rem;
+      padding: 0;
+      border-radius: initial;
+      border-radius: 2rem;
+      overflow: hidden;
+      box-shadow: 1px 1px 5px rgba(15, 15, 15, 0.701);
+      @include mq(m) {
+        height: 32rem;
+        width: 50rem;
+        min-width: 40rem;
+      }
+      .modal-close {
+        top: 27rem;
+        right: 20.5rem;
+        height: 2rem;
+        width: 200px;
+        text-align: center;
+        font-size: 1.6rem;
+        transition: all 500ms;
+        position: absolute;
+        padding: 1.5rem 2rem;
+        line-height: 0;
+        border: none;
+        // border-radius: 0.8rem;
+        background-color: $secundario;
+        color: $white;
+        // font-weight: $bold;
+        cursor: pointer;
+        &:hover{
+          transform: none;
+        }
+        @include mq(m){
+          right: 3rem;
+        }
+      }
+
+    }
+    .react-datepicker__navigation-icon--next{
+      left: 15rem;
+    }
+    .react-datepicker__navigation-icon--previous{
+      right: 15rem;
+    }
+    @include mq(m){
+      .react-datepicker__navigation-icon--next{
+        top: 2rem;
+        left: initial;
+      }
+      .react-datepicker__navigation-icon--previous{
+        top: 2rem;
+        right: initial;
+      }
+
+    }
+  }
+}

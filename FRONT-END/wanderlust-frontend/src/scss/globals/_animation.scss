@@ -1,0 +1,66 @@
+@keyframes menuDrawerOpen {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes menuDrawerClose {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
+@keyframes rotateOpen {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: translateX(0deg);
+  }
+}
+
+@keyframes rotateClose {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: translateX(0deg);
+  }
+}
+
+@keyframes formOpacity {
+  from {
+    opacity: 0;
+    transform: translateY(10rem);
+    transform: translateX(0rem);
+  }
+  to {
+    opacity: 10;
+    transform: translateY(0);
+  }
+}
+
+@keyframes formOpacity2 {
+}
+
+@keyframes toOpacity {
+  from {
+    opacity: 1;
+    transform: translateY(0rem);
+    transform: translateX(0rem);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(10rem);
+  }
+}

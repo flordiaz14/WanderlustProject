@@ -1,0 +1,63 @@
+.booking--page {
+  animation: formOpacity 2s;
+  min-height: calc(100vh - 164px);
+  &__container {
+    background-color: $bgForm;
+    min-height: calc(100vh - 244px);
+    width: auto;
+    .booking--table {
+      font-size: 1rem;
+      width: 90%;
+      text-align: center;
+      color: $blueDark;
+      @include mq(m) {
+        font-size: 1.2rem;
+      }
+      &__head {
+        text-align: center;
+        font-weight: $bold;
+      }
+      &__body {
+      }
+      tr {
+        background-color: $white;
+      }
+      th {
+        // text-align: left;
+        padding: 1rem 0rem;
+        @include mq(m) {
+          padding: 2rem;
+        }
+      }
+      td {
+        padding: 1rem 0rem;
+        @include mq(m) {
+          padding: 1rem;
+        }
+      }
+      .btns {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.5rem;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        @include mq(m) {
+          width: 100%;
+          flex-direction: row;
+          gap: 0.5rem;
+        }
+        button {
+          font-size: 1rem;
+        }
+        .newgreen {
+          background-color: $greenL-hover;
+          &:hover {
+            background-color: $greenL;
+          }
+        }
+      }
+    }
+  }
+}

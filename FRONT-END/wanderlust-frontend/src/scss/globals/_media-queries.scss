@@ -1,0 +1,16 @@
+// Media queries
+
+@mixin mq($bp) {
+  $bp-value: map-get($breakpoints-min, $bp);
+
+  @media only screen and (min-width: $bp-value) {
+    @content;
+  }
+}
+
+@mixin line-clamp($number) {
+  display: -webkit-box;
+  -webkit-line-clamp: $number;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

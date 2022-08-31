@@ -1,0 +1,21 @@
+.recommended{
+    margin: auto;
+    background-color: $platinum;
+    padding: 3rem 0 10rem;
+    // width: 100vw;
+    &--title{
+        font-size: 2.4rem;
+        margin: 2rem 0 2rem 3.5%;;
+        color: $blueDark;
+    }
+    &--cards{
+        padding-top: 3rem;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+        margin: auto;
+    }
+}
+

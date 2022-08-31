@@ -1,0 +1,193 @@
+.form--booking {
+  display: grid;
+  grid-template-columns: 1fr;
+  // grid-template-rows: auto auto auto auto;
+  background-color: $cultured;
+  gap: 1rem;
+  font-size: 1.4rem;
+  h2 {
+    color: $blueDark;
+    padding: 2rem 0 2rem;
+    font-size: 2rem;
+  }
+  @include mq(l) {
+    padding: 2rem;
+    grid-template-columns: 1fr 1fr;
+  }
+  .userData {
+    padding: 3rem;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    &--container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      background-color: $white;
+      padding: 5rem 2rem;
+      gap: 1rem;
+      justify-content: center;
+      border-radius: 0.8rem;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      @include mq(m) {
+        flex-direction: row;
+      }
+      div {
+        width: 100%;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        @include mq(m) {
+          width: 45%;
+        }
+        input {
+          padding: 1.2rem;
+          border: none;
+          background-color: $platinum;
+          border-radius: 0.8rem;
+          &::placeholder {
+            color: rebeccapurple;
+          }
+        }
+      }
+    }
+  }
+  .date {
+    padding: 0 3rem;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .time {
+    padding: 0 3rem;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    &--container {
+      background-color: $white;
+      border-radius: 0.8rem;
+      padding: 4rem;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      p {
+        margin: 1rem 0;
+        font-weight: $bold;
+        font-size: 1.2rem;
+      }
+      select {
+        width: 60%;
+        padding: 1.6rem;
+        border: solid 1px rgba(168, 168, 168, 0.451);
+        box-shadow: 0px 4px 4px rgba(127, 127, 127, 0.174);
+        border-radius: 0.8rem;
+      }
+      .time--icon {
+        color: $greenL;
+        font-size: 1.6rem;
+      }
+    }
+  }
+  .dataProduct {
+    margin: 2rem 3rem;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    @include mq(l) {
+      margin: 13% 0 1% ;
+    }
+    &--container {
+      background-color: $white;
+      border-radius: 0.8rem;
+      padding: 2rem;
+      height: 100%;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+      h2 {
+        padding: 0;
+      }
+      .dataProduct--title {
+        padding: 2rem 0;
+      }
+      .location--container {
+        display: flex;
+        gap: 1rem;
+        padding: 2rem 0;
+        font-size: 1.2rem;
+        font-weight: $bold;
+        img {
+          width: 1.5rem;
+        }
+      }
+      .dataProduct--wrapper{
+        @include mq(m) {
+          display: flex;
+          align-items: center;
+          gap: 2rem;
+        }
+        @include mq(l) {
+          display: initial;
+          align-items: initial;
+        }
+        &__left{
+          @include mq(m) {
+            width: 50%;
+          }
+          @include mq(l) {
+            width: initial;
+          }
+          .dataProduct--img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            object-position: center;
+          }
+        }
+        &__right{
+          @include mq(m) {
+            width: 50%;
+          }
+          @include mq(l) {
+            width: initial;
+          }
+          h4 {
+            margin-top: 3rem;
+            color: $gray;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+          }
+          hr{
+            margin: 1rem;
+            border-color: $platinum;
+          }
+          button{
+            margin: 2rem 0;
+          }
+          .Check-in, .Check-out{
+            display: flex;
+            padding: 2rem;
+            justify-content: space-between;
+            color: $blueDark;
+            font-size: 1.6rem;
+            input{
+              width: 4rem;
+              border: none;
+              border-bottom: solid 1px $blueDark;
+            }
+          }
+        }
+      }
+    }
+
+    @include mq(l) {
+      grid-column-start: 2;
+      grid-column-end: -1;
+      grid-row-start: 1;
+      grid-row-end: 5;
+    }
+  }
+}

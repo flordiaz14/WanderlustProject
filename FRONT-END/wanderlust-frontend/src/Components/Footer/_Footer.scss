@@ -1,0 +1,13 @@
+.footer{
+    background-color: $blue;
+    color: $white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    bottom: 0;
+    font-size: 1.4rem;
+    padding: 2rem;
+    z-index: 1;
+    width: 100%;
+}

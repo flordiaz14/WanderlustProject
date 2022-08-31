@@ -1,0 +1,43 @@
+.politics {
+    h2 {
+      color: $blueDark;
+      padding: 2rem 0 1rem;
+      width: 90%;
+      margin: auto;
+    }
+    &--container {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      padding: 2rem 0;
+      height: 50rem;
+      flex-direction: column;
+      @include mq(m) {
+        height: 30rem;
+        flex-direction: row;
+      }
+      div {
+        width: 100%;
+        @include mq(l) {
+          width: 25%;
+        }
+        h3 {
+          color: $blue;
+          font-size: 1.4rem;
+          padding-top: 1.5rem;
+        }
+        ol {
+          margin-top: 0.5rem;
+          li {
+            list-style: none;
+            padding: 0.5rem 1rem;
+            font-size: 1.1rem;
+            @include mq(l) {
+              width: 60%;
+              padding: 1rem 0;
+            }
+          }
+        }
+      }
+    }
+  }

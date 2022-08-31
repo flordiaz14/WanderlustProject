@@ -1,0 +1,91 @@
+.menuDrawer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  z-index: 3;
+  width: 80%;
+  //   margin: 0 auto;
+  background-color: $bgForm;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  transition: 500ms all;
+  animation: menuDrawerOpen 1s;
+  
+  &.hidden{
+    animation: menuDrawerClose 1s;
+  }
+  &--icon__menu {
+    font-size: 4rem;
+    margin-right: 2rem;
+    color: $blue;
+    @include mq(m) {
+      display: none;
+    }
+  }
+  &--nav__drawer--footer {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 3;
+    .social-media {
+      a {
+        svg {
+          color: $gray;
+        }
+      }
+    }
+  }
+  &--headboard {
+    height: 30%;
+    width: 100%;
+    background-color: $blue;
+    button {
+      position: absolute;
+      left: 2rem;
+      top: 2rem;
+      border: none;
+      background: transparent;
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: $white;
+      animation: rotateOpen 1s;
+      &.hidden{
+        animation: rotateClose 1s;
+      }
+    }
+    h2 {
+      position: absolute;
+      right: 2rem;
+      top: 25%;
+      font-weight: 500;
+      font-size: 2rem;
+    }
+  }
+  &--nav__drawer {
+    .nav.classMobile {
+      a {
+        button {
+          background-color: transparent;
+          border: none;
+          color: $greenL;
+          text-decoration: underline;
+          font-weight: $bold;
+          padding: 1.2rem 3rem;
+          font-size: 1.6rem;
+          line-height: 1;
+          text-underline-offset: 0.5rem;
+          :first-child {
+            border-bottom: solid 1px $black;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+

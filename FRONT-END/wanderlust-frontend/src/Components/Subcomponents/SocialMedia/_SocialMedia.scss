@@ -1,0 +1,16 @@
+.social-media{
+    display: flex;
+    gap: 1rem;
+    svg{
+        color: white;
+        font-size: 1.5rem;
+        transition: all 500ms;
+        cursor: pointer;
+        @include mq(l){
+            font-size: 2rem;
+        }
+        &:hover{
+            transform: scale(1.5);
+        }
+    }
+}

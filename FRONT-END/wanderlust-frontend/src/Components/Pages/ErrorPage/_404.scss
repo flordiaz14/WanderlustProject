@@ -1,0 +1,12 @@
+.error404 {
+    min-height: calc(100vh - 164px);
+    background-image: url('../../../Img/Oter404.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: formOpacity 2s;
+    h1{
+        visibility: hidden;
+    }
+    
+}

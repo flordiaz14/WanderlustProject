@@ -1,0 +1,22 @@
+.nav{
+    display: none;
+    @include mq(m){
+        display: initial;
+        display: flex;
+        padding-right: 2rem;
+        gap: 1rem;
+        // refactorizar cuando se pueda
+        .button5.btn.white{
+            font-size: 1.2rem;
+        }
+    }
+    @include mq(l){
+        .button5.btn.white{
+            font-size: initial;
+        }
+
+    }
+    &.classMobile{
+        display: initial;
+    }
+}
