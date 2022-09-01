@@ -14,13 +14,13 @@ USE `wanderlust`;
 -- -----------------------------------------------------
 -- Table `wanderlust`.`categories`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `wanderlust`.`categories` (
+CREATE TABLE IF NOT EXISTS `categories` (
   `id` BIGINT NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(50) NOT NULL,
   `description` VARCHAR(500) NOT NULL,
   `url_image` VARCHAR(500) NOT NULL,
   PRIMARY KEY (`id`),
-  UNIQUE INDEX `UK_title` (`title` ASC) VISIBLE)
+  UNIQUE INDEX `UK_title` (`title` ASC) )
 ENGINE = InnoDB
 AUTO_INCREMENT = 1;
 
@@ -55,9 +55,9 @@ CREATE TABLE IF NOT EXISTS `wanderlust`.`products` (
   `politics_id` BIGINT NULL DEFAULT NULL,
   `created_by` BIGINT NOT NULL,
   PRIMARY KEY (`id`),
-  INDEX `category_idx` (`category_id` ASC) VISIBLE,
-  INDEX `city_idx` (`city_id` ASC) VISIBLE,
-  INDEX `product_has_politics` (`politics_id` ASC) VISIBLE,
+  INDEX `category_idx` (`category_id` ASC) ,
+  INDEX `city_idx` (`city_id` ASC) ,
+  INDEX `product_has_politics` (`politics_id` ASC) ,
   CONSTRAINT `category`
     FOREIGN KEY (`category_id`)
     REFERENCES `wanderlust`.`categories` (`id`),
@@ -95,7 +95,7 @@ CREATE TABLE IF NOT EXISTS `wanderlust`.`users` (
   `role_id` INT NOT NULL,
    `validate` BIT,
   PRIMARY KEY (`id`),
-  INDEX `rol_id_idx` (`role_id` ASC) VISIBLE,
+  INDEX `rol_id_idx` (`role_id` ASC) ,
   CONSTRAINT `users_has_roles`
     FOREIGN KEY (`role_id`)
     REFERENCES `wanderlust`.`roles` (`id`)
@@ -116,8 +116,8 @@ CREATE TABLE IF NOT EXISTS `wanderlust`.`bookings` (
   `product_id` BIGINT NOT NULL,
   `user_id` BIGINT NOT NULL,
   PRIMARY KEY (`id`),
-  INDEX `product_id_idx` (`product_id` ASC) VISIBLE,
-  INDEX `user_id_idx` (`user_id` ASC) VISIBLE,
+  INDEX `product_id_idx` (`product_id` ASC) ,
+  INDEX `user_id_idx` (`user_id` ASC) ,
   CONSTRAINT `product_has_bookings`
     FOREIGN KEY (`product_id`)
     REFERENCES `wanderlust`.`products` (`id`)
@@ -150,8 +150,8 @@ CREATE TABLE IF NOT EXISTS `wanderlust`.`features_products` (
   `products_id` BIGINT NOT NULL,
   `features_id` BIGINT NOT NULL,
   PRIMARY KEY (`products_id`, `features_id`),
-  INDEX `fk_products_has_features_features1_idx` (`features_id` ASC) VISIBLE,
-  INDEX `fk_products_has_features_products1_idx` (`products_id` ASC) VISIBLE,
+  INDEX `fk_products_has_features_features1_idx` (`features_id` ASC) ,
+  INDEX `fk_products_has_features_products1_idx` (`products_id` ASC) ,
   CONSTRAINT `fk_products_has_features_features1`
     FOREIGN KEY (`features_id`)
     REFERENCES `wanderlust`.`features` (`id`)
@@ -174,8 +174,8 @@ CREATE TABLE IF NOT EXISTS `wanderlust`.`images` (
   `url` VARCHAR(500) NOT NULL,
   `product_id` BIGINT NOT NULL,
   PRIMARY KEY (`id`),
-  INDEX `UK_url` (`url` ASC) VISIBLE,
-  INDEX `product_id` (`product_id` ASC) VISIBLE,
+  INDEX `UK_url` (`url` ASC) ,
+  INDEX `product_id` (`product_id` ASC) ,
   CONSTRAINT `product_has_images`
     FOREIGN KEY (`product_id`)
     REFERENCES `wanderlust`.`products` (`id`))
@@ -191,7 +191,7 @@ CREATE TABLE IF NOT EXISTS `wanderlust`.`rates` (
   `rate` DOUBLE NOT NULL,
   `product_id` BIGINT NOT NULL,
   PRIMARY KEY (`id`),
-  INDEX `product_id` (`product_id` ASC) VISIBLE,
+  INDEX `product_id` (`product_id` ASC) ,
   CONSTRAINT `product_has_rates`
     FOREIGN KEY (`product_id`)
     REFERENCES `wanderlust`.`products` (`id`))
@@ -205,8 +205,8 @@ CREATE TABLE IF NOT EXISTS `wanderlust`.`favorites` (
   `products_id` BIGINT NOT NULL,
   `users_id` BIGINT NOT NULL,
   PRIMARY KEY (`products_id`, `users_id`),
-  INDEX `fk_products_has_users_users1_idx` (`users_id` ASC) VISIBLE,
-  INDEX `fk_products_has_users_products1_idx` (`products_id` ASC) VISIBLE,
+  INDEX `fk_products_has_users_users1_idx` (`users_id` ASC) ,
+  INDEX `fk_products_has_users_products1_idx` (`products_id` ASC) ,
   CONSTRAINT `fk_products_has_users_users1`
     FOREIGN KEY (`users_id`)
     REFERENCES `wanderlust`.`users` (`id`)
@@ -235,7 +235,7 @@ CREATE TABLE IF NOT EXISTS `wanderlust`.`cancellation_policies` (
   `description` VARCHAR(255) NULL DEFAULT NULL,
   `policies_id` BIGINT NOT NULL,
   PRIMARY KEY (`id`),
-  INDEX `policies_has_cancellation_policies` (`policies_id` ASC) VISIBLE,
+  INDEX `policies_has_cancellation_policies` (`policies_id` ASC) ,
   CONSTRAINT `policies_has_cancellation_policies`
     FOREIGN KEY (`policies_id`)
     REFERENCES `wanderlust`.`policies` (`id`))
@@ -249,7 +249,7 @@ CREATE TABLE IF NOT EXISTS `wanderlust`.`rules` (
   `description` VARCHAR(255) NULL DEFAULT NULL,
   `policies_id` BIGINT NOT NULL,
   PRIMARY KEY (`id`),
-  INDEX `policies_has_rules` (`policies_id` ASC) VISIBLE,
+  INDEX `policies_has_rules` (`policies_id` ASC) ,
   CONSTRAINT `policies_has_rules`
     FOREIGN KEY (`policies_id`)
     REFERENCES `wanderlust`.`policies` (`id`))
@@ -264,7 +264,7 @@ CREATE TABLE IF NOT EXISTS `wanderlust`.`security_politics` (
   `description` VARCHAR(255) NULL DEFAULT NULL,
   `policies_id` BIGINT NOT NULL,
   PRIMARY KEY (`id`),
-  INDEX `policies_has_security_politics` (`policies_id` ASC) VISIBLE,
+  INDEX `policies_has_security_politics` (`policies_id` ASC) ,
   CONSTRAINT `policies_has_security_politics`
     FOREIGN KEY (`policies_id`)
     REFERENCES `wanderlust`.`policies` (`id`))
