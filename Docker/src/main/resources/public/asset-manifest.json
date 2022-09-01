@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8157f7a3.css",
+    "main.js": "/static/js/main.b4220044.js",
+    "static/media/Oter404.jpg": "/static/media/Oter404.291c471e5ac5782df46c.jpg",
+    "static/media/Map2.png": "/static/media/Map2.03246b7d3f7702dadcdd.png",
+    "static/media/404.jpg": "/static/media/404.ce293654fc5b055593cf.jpg",
+    "static/media/Map3.png": "/static/media/Map3.a6f0421e57962f068b8d.png",
+    "service-worker.js": "/service-worker.js",
+    "static/media/Map4.png": "/static/media/Map4.7695f85a2ae1c46e51b3.png",
+    "static/media/Logo_1.png": "/static/media/Logo_1.f03c632acaba1409dce9.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/email-icon.svg": "/static/media/email-icon.e481f91a247440812253.svg",
+    "index.html": "/index.html",
+    "main.8157f7a3.css.map": "/static/css/main.8157f7a3.css.map",
+    "main.b4220044.js.map": "/static/js/main.b4220044.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8157f7a3.css",
+    "static/js/main.b4220044.js"
+  ]
+}

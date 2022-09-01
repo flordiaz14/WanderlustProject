@@ -1,10 +1,12 @@
 export const helpHttp = () => {
-  let api="";
+  let api="api/";
+  /*
   if (window.location.href.includes("localhost")) {
     api="http://localhost:8080/";    
   }else{
     api= "https://api.wander-lust.com.ar/";
   }
+  */
 
   const customFetch = (endpoint, options) => {
     const defaultHeader = {
